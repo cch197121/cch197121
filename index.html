@@ -9,57 +9,67 @@
       margin: 0;
       padding: 0;
     }
-    
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    
-    nav {
-      background-color: #f2f2f2;
-      padding: 10px;
-      text-align: center;
-    }
-    
-    nav a {
-      text-decoration: none;
-      color: #333;
-      margin: 0 10px;
-    }
-    
-    main {
-      padding: 20px;
-      text-align: center;
-    }
-    
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>欢迎来到我的主页</h1>
-  </header>
-  
-  <nav>
-    <a href="#">主页</a>
-    <a href="#">关于我</a>
-    <a href="#">联系方式</a>
-  </nav>
-  
-  <main>
-    <h2>欢迎访问我的主页！</h2>
-    <p>这是一个示例的主页。</p>
-  </main>
-  
-  <footer>
-    <p>版权所有 © 2023 我的主页</p>
-  </footer>
-</body>
+   header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.transform {
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  margin: 0 auto;
+  animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+  0%!{(MISSING)
+    transform: rotate(0deg);
+  }
+  100%!{(MISSING)
+    transform: rotate(360deg);
+  }
+}
+ </style> </head> <body> <header> <h1>欢迎来到我的主页</h1> </header>
+
+<nav> <a href="#">主页</a> <a href="#">关于我</a> <a href="#">联系方式</a> </nav>
+
+<main> <h2>欢迎访问我的主页！</h2> <div class="transform"></div> <p>这是一个示例的主页。</p> </main>
+
+<footer> <p>版权所有© 2023我的主页</p>
+</footer> 
+ </body>
 </html>
+
+
+    
+   
+  
+ 
+ 
